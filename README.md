@@ -74,7 +74,67 @@ The model uses the following input features:
 
 1. *Clone the repository*:
    ```bash
-   git clone https://github.com/Hepziba29/loan-default-predictor-with-Streamlit&SHAPgit
+   git clone https://github.com/Hepziba29/loan-default-predictor-with-Streamlit-SHAPgit
    cd loan-default-predictor
+   Install dependencies
+   pip install -rrequirement.txt
+   Run the Streamlit app:
+   streamlit run app.py
+ ## Live app
+   Click here to try the app live [Loan Default Prediction App]
+   (https://loan-default-predictor-with-app-shap-gqjwhckxvht7kqqnksm3ft.streamlit.app/)
+
+   #  Exploratory Data Analysis: Loan Default Prediction
+
+This notebook explores and analyzes the *UCI Credit Risk Dataset* to understand patterns behind customer loan defaults. The purpose of this EDA is to identify data distributions, detect missing values, understand correlations, and prepare the data for model building.
+
+---
+
+##  Dataset Overview
+
+The dataset contains historical loan applicant data with the target column:
+
+- SeriousDlqin2yrs → Indicates whether a person defaulted within 2 years.
+
+### Key Features:
+
+- RevolvingUtilizationOfUnsecuredLines
+- age
+- NumberOfTime30-59DaysPastDueNotWorse
+- DebtRatio
+- MonthlyIncome
+- NumberOfOpenCreditLinesAndLoans
+- NumberOfTimes90DaysLate
+- NumberRealEstateLoansOrLines
+- NumberOfTime60-89DaysPastDueNotWorse
+- NumberOfDependents
+
+---
+
+##  Key Objectives of EDA
+
+- Understand the distribution of numerical features.
+- Check for missing values and handle them.
+- Detect outliers and imbalances in the target variable.
+- Explore relationships between input features and loan default risk.
+
+---
+
+##  What This EDA Covers
+
+-  *Data cleaning:* Handled null values in MonthlyIncome and NumberOfDependents.
+-  *Distribution plots:* Age, Income, Credit Lines, etc.
+-  *Target imbalance check:* Checked for class imbalance in defaults.
+-  *Correlation heatmap:* Explored feature relationships.
+-  *Boxplots & histograms* for visualizing feature distributions and outliers.
+-  *Insight extraction* from feature trends affecting default risk.
+
+---
+
+## Outputs
+Histogram of age and income
+Target Variable Distruibution
+Boxplot of Credit Lines vs Default
+Correlation Heatmap
    
    
