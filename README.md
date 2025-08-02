@@ -36,6 +36,7 @@ loan_default.ipynb
 EDA.ipynb
 2.Python file(streamlit)
   app.py
+  train_model.py
 3.DataSet
 cs-training from kaagle
 4.Models and scaler
@@ -82,7 +83,8 @@ The model uses the following input features:
    streamlit run app.py
  ## Live app
    Click here to try the app live [Loan Default Prediction App]
-   (https://loan-default-predictor-with-app-shap-gqjwhckxvht7kqqnksm3ft.streamlit.app/)
+  (https://loan-default-predictor-with-app-shap-8nej5yx88npgz7mcm3bxgp.streamlit.app)
+   
 
  #  Exploratory Data Analysis: Loan Default Prediction
 
