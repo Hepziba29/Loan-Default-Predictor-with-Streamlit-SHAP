@@ -1,6 +1,6 @@
  ## Loan Default Prediction Web App
 
-This project is a machine learning-based web app that predicts whether a loan applicant is likely to default. The application is built using *Streamlit* and trained using a *Random Forest* model. The app takes user input for financial attributes, performs preprocessing, and predicts the loan default risk. It also uses *SHAP* to provide model explainability.
+This project is a Python and machine learning-based web app that predicts whether a loan applicant is likely to default. The application is built using *Streamlit* and trained using a *Random Forest* model. The app takes user input for financial attributes, performs preprocessing, and predicts the loan default risk. It also uses *SHAP* to provide model explainability.
 
 ---
 
@@ -31,20 +31,20 @@ We built a user-friendly Streamlit web app where users can enter input features 
 
 
 ## Project Structure
-*Jupyter files 
-1.loan_default.ipynb
-2.EDA.ipynb
-*Python file(streamlit)
-1. app.py
- *DataSet
-1. cs-training from kaagle
- *Models and scaler
-1.scaler.pkl
-2. loan_default_model.pkl
- *Requirement.txt
- * READmd file
-   *Outputs.txt
-   *Screenshots of EDA outputs
+1.Jupyter files 
+loan_default.ipynb
+EDA.ipynb
+2.Python file(streamlit)
+  app.py
+3.DataSet
+cs-training from kaagle
+4.Models and scaler
+  scaler.pkl
+ loan_default_model.pkl
+ 5.Requirement.txt
+ 6. READmd file
+ 7. Result.png 
+   
    ##  Input Features
 
 The model uses the following input features:
@@ -84,7 +84,7 @@ The model uses the following input features:
    Click here to try the app live [Loan Default Prediction App]
    (https://loan-default-predictor-with-app-shap-gqjwhckxvht7kqqnksm3ft.streamlit.app/)
 
-   #  Exploratory Data Analysis: Loan Default Prediction
+ #  Exploratory Data Analysis: Loan Default Prediction
 
 This notebook explores and analyzes the *UCI Credit Risk Dataset* to understand patterns behind customer loan defaults. The purpose of this EDA is to identify data distributions, detect missing values, understand correlations, and prepare the data for model building.
 
