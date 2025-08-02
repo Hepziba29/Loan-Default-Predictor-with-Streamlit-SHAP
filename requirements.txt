@@ -5,6 +5,7 @@ pandas==2.2.2
 numpy==1.26.4
 scikit-learn==0.45.1
 shap==0.45.1
-joblit==1.4.2
-matplotlib==3.8.4
+joblib==1.4.2
+
+
 
